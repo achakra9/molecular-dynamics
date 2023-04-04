@@ -1,0 +1,29 @@
+# This file was created Mon Apr  3 21:10:53 2023
+# Created by:
+#                 :-) GROMACS - gmx rms, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx rms -s md01.tpr -f md01.xtc -n ca.ndx -o rmsdca.xvg -fit rot+trans
+# gmx rms is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Calpha after lsq fit to Calpha"
+   0.0000000    0.0004954
+   1.0000000    0.0384636
+   2.0000000    0.0459548
+   3.0000000    0.0594732
+   4.0000000    0.0578282
+   5.0000000    0.0576854
+   6.0000000    0.0608051
+   7.0000000    0.0669049
+   8.0000000    0.0687529
+   9.0000000    0.0710100
+  10.0000000    0.0642210

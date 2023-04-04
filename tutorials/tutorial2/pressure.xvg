@@ -1,0 +1,35 @@
+# This file was created Sun Apr  2 19:07:36 2023
+# Created by:
+#                :-) GROMACS - gmx energy, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx energy -f npt.edr -o pressure.xvg
+# gmx energy is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(bar)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Pressure"
+    0.000000   71.086876
+    1.000000   43.362194
+    2.000000   42.957691
+    3.000000  -110.298058
+    4.000000  -70.405426
+    5.000000  -219.423355
+    6.000000  -66.924622
+    7.000000   99.008820
+    8.000000  -67.673294
+    9.000000   48.945309
+   10.000000   71.428444

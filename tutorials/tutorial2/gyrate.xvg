@@ -1,0 +1,38 @@
+# This file was created Mon Apr  3 21:05:38 2023
+# Created by:
+#                :-) GROMACS - gmx gyrate, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx gyrate -s md01.tpr -f md01_fit.xtc -o gyrate.xvg
+# gmx gyrate is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Radius of gyration (total and around axes)"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Rg (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Rg"
+@ s1 legend "Rg\sX\N"
+@ s2 legend "Rg\sY\N"
+@ s3 legend "Rg\sZ\N"
+         0     1.40841      1.2065     1.03204     1.20271
+         1     1.40983     1.20678     1.03667     1.20176
+         2     1.41519     1.21066      1.0458     1.20255
+         3      1.4186     1.21766     1.04293     1.20601
+         4     1.41988     1.21602     1.04025     1.21297
+         5     1.41441      1.2125     1.03828     1.20538
+         6     1.41665     1.21498     1.04238     1.20461
+         7     1.42014     1.21787     1.04225        1.21
+         8     1.41025     1.20412     1.04227     1.20058
+         9     1.41762     1.21043     1.04905     1.20568
+        10     1.42075     1.21568     1.04476     1.21146

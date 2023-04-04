@@ -1,0 +1,35 @@
+# This file was created Sun Apr  2 18:49:56 2023
+# Created by:
+#                :-) GROMACS - gmx energy, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  299.874756
+    1.000000  300.229248
+    2.000000  301.824554
+    3.000000  300.494934
+    4.000000  299.550873
+    5.000000  302.352692
+    6.000000  301.668457
+    7.000000  300.035400
+    8.000000  301.161774
+    9.000000  299.316315
+   10.000000  301.183594

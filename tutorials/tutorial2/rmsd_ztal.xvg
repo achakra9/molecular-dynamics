@@ -1,0 +1,29 @@
+# This file was created Mon Apr  3 21:02:13 2023
+# Created by:
+#                 :-) GROMACS - gmx rms, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx rms -s em.tpr -f md01_fit.xtc -o rmsd_ztal.xvg -tu ps
+# gmx rms is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "System after lsq fit to Backbone"
+   0.0000000    2.3902948
+   1.0000000    2.4324110
+   2.0000000    2.4409492
+   3.0000000    2.4663687
+   4.0000000    2.4729395
+   5.0000000    2.4839628
+   6.0000000    2.5230315
+   7.0000000    2.5291259
+   8.0000000    2.5693369
+   9.0000000    2.5852258
+  10.0000000    2.5776432

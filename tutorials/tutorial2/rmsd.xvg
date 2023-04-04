@@ -1,0 +1,29 @@
+# This file was created Mon Apr  3 20:57:48 2023
+# Created by:
+#                 :-) GROMACS - gmx rms, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx rms -s md01.tpr -f md01_fit.xtc -o rmsd.xvg -tu ps
+# gmx rms is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "System after lsq fit to Backbone"
+   0.0000000    1.1031933
+   1.0000000    1.4110265
+   2.0000000    1.4898278
+   3.0000000    1.6140409
+   4.0000000    1.6287798
+   5.0000000    1.6831076
+   6.0000000    1.8078754
+   7.0000000    1.8277997
+   8.0000000    1.9056556
+   9.0000000    1.9669000
+  10.0000000    1.9949996

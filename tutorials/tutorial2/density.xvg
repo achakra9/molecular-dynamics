@@ -1,0 +1,35 @@
+# This file was created Sun Apr  2 19:08:00 2023
+# Created by:
+#                :-) GROMACS - gmx energy, 2022.4-conda_forge (-:
+# 
+# Executable:   /Users/arnab/opt/anaconda3/envs/molecularDynamics/bin.AVX2_256/gmx
+# Data prefix:  /Users/arnab/opt/anaconda3/envs/molecularDynamics
+# Working dir:  /Users/arnab/GitHub/molecular-dynamics/tutorials/tutorial2
+# Command line:
+#   gmx energy -f npt.edr -o density.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  994.001953
+    1.000000  1018.473083
+    2.000000  1016.438782
+    3.000000  1024.539185
+    4.000000  1018.194092
+    5.000000  1014.538940
+    6.000000  1018.574768
+    7.000000  1019.409241
+    8.000000  1018.371887
+    9.000000  1021.351807
+   10.000000  1016.977295
