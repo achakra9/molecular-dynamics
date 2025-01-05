@@ -5,8 +5,8 @@ This is my attempt at learning gromacs from various tutorials. I will keep updat
   - activate the environment with `conda activate gromacs`
   - To install GROMACS `conda install -c conda-forge gromacs`
   - To verify the installation type `gmx --version`. This is what I see when I do this:
-  ```
-gmx --version
+  ```gmx --version
+
                    :-) GROMACS - gmx, 2024.4-conda_forge (-:
 
 Executable:   /opt/anaconda3/envs/gromacs/bin.AVX2_256/gmx
@@ -35,7 +35,7 @@ C++ compiler:        /Users/runner/miniforge3/conda-bld/gromacs_1730738380979/_b
 C++ compiler flags:  -mavx2 -mfma -Wno-reserved-identifier -Wno-missing-field-initializers -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-source-uses-openmp -Wno-c++17-extensions -Wno-documentation-unknown-command -Wno-covered-switch-default -Wno-switch-enum -Wno-switch-default -Wno-extra-semi-stmt -Wno-weak-vtables -Wno-shadow -Wno-padded -Wno-reserved-id-macro -Wno-double-promotion -Wno-exit-time-destructors -Wno-global-constructors -Wno-documentation -Wno-format-nonliteral -Wno-used-but-marked-unused -Wno-float-equal -Wno-conditional-uninitialized -Wno-conversion -Wno-disabled-macro-expansion -Wno-unused-macros -Wno-unsafe-buffer-usage -Wno-cast-function-type-strict SHELL:-fopenmp=libomp -O3 -DNDEBUG
 BLAS library:        External - detected on the system
 LAPACK library:      External - detected on the system
-  ```
+
 If we look at "OpenMP support" and "GPU support", it is clear that in my current machine I can run GROMACS in parallel, but I do not have GPU acceleration.
 
 - Lysozome-water tutorial
